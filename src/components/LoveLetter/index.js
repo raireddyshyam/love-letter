@@ -36,7 +36,7 @@ const LoveLetter = () => {
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
         My dear Kedhasree garu🖤,<br />
-        I wanted to thank you for our conversation today. I really enjoyed talking with you for an hour.I felt like you're someone I can always be myself around.Thanks buddy(Small gratitute from my side)<br />I hope you will be my bestie🖤<br />
+        I wanted to thank you for our conversation today.I really enjoyed talking with you for an hour.I felt like you're someone I can always be myself around.Thanks buddy(Small gratitute from my side)<br />I hope you will be my bestie🖤<br />
         @ Shyam<br />
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
